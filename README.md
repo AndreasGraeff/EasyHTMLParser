@@ -4,11 +4,15 @@ The Python module HTMLParser, which is part of every actual python installation,
 
 An example:
 
-...title=Georgia O'Keefe ... correct HTML would be
+    ...title=Georgia O'Keefe ...
 
-...title="Georgia O'Keefe" ... or best
+correct HTML would be
 
-...title="Georgia O&#39;Keefe" ...
+    ...title="Georgia O'Keefe" ...
+
+or best
+
+    ...title="Georgia O&#39;Keefe" ...
 
 HTMLParser crashes on the ', gives you an exception and leaves the rest of the page unparsed.
 
